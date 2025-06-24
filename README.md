@@ -12,7 +12,7 @@ This project predicts future stock prices using a Long Short-Term Memory (LSTM) 
 
 ## 🚀 Demo
 
-![Streamlit Screenshot](screenshot.png) <!-- Replace with actual image -->
+![Screenshot 2025-06-25 000002](https://github.com/user-attachments/assets/b5301c1a-01e8-49e9-8125-f1efa754c825)
 
 ---
 
