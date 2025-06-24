@@ -43,18 +43,18 @@ This project predicts future stock prices using a Long Short-Term Memory (LSTM) 
 
 ## 📂 Project Structure
 
-stock-price-lstm/
-│
-├── notebook/
-│ └── train_model.ipynb # Jupyter Notebook to train and save LSTM model
-│
-├── models/
-│ ├── lstm_model.h5 # Trained LSTM model
-│ └── scaler.gz # MinMaxScaler used for normalization
-│
-├── app.py # Streamlit app for prediction and visualization
-├── requirements.txt # All required Python packages
-└── README.md # Project description and setup
+stock-price-lstm/  
+│  
+├── notebook/  
+│ └── train_model.ipynb # Jupyter Notebook to train and save LSTM model  
+│  
+├── models/  
+│ ├── lstm_model.h5 # Trained LSTM model  
+│ └── scaler.gz # MinMaxScaler used for normalization  
+│  
+├── app.py # Streamlit app for prediction and visualization  
+├── requirements.txt # All required Python packages  
+└── README.md # Project description and setup  
 
 ---
 
