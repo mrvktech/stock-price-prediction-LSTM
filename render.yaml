@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: stock-price-lstm
+    runtime: python
+    plan: free
+    region: oregon
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10
