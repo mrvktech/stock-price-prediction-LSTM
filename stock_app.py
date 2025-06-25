@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 # --- Load Model & Scaler ---
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model("lstm_model.h5")
+    model = tf.keras.models.load_model("models/lstm_model.h5")
     scaler = joblib.load("scaler.gz")
     return model, scaler
 
