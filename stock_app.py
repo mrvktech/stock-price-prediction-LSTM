@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 @st.cache_resource
 def load_model():
     model = tf.keras.models.load_model("models/lstm_model.h5")
-    scaler = joblib.load("scaler.gz")
+    scaler = joblib.load("models/scaler.gz")
     return model, scaler
 
 model, scaler = load_model()
